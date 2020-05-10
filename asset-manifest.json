@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/M7mdHendawy/Weather/static/css/main.b229cbe7.chunk.css",
+    "main.js": "/M7mdHendawy/Weather/static/js/main.7ddf4feb.chunk.js",
+    "main.js.map": "/M7mdHendawy/Weather/static/js/main.7ddf4feb.chunk.js.map",
+    "runtime-main.js": "/M7mdHendawy/Weather/static/js/runtime-main.aab07b2a.js",
+    "runtime-main.js.map": "/M7mdHendawy/Weather/static/js/runtime-main.aab07b2a.js.map",
+    "static/js/2.4c851501.chunk.js": "/M7mdHendawy/Weather/static/js/2.4c851501.chunk.js",
+    "static/js/2.4c851501.chunk.js.map": "/M7mdHendawy/Weather/static/js/2.4c851501.chunk.js.map",
+    "index.html": "/M7mdHendawy/Weather/index.html",
+    "precache-manifest.33304a00453aeb98ef9c31506f518d5f.js": "/M7mdHendawy/Weather/precache-manifest.33304a00453aeb98ef9c31506f518d5f.js",
+    "service-worker.js": "/M7mdHendawy/Weather/service-worker.js",
+    "static/css/main.b229cbe7.chunk.css.map": "/M7mdHendawy/Weather/static/css/main.b229cbe7.chunk.css.map",
+    "static/js/2.4c851501.chunk.js.LICENSE.txt": "/M7mdHendawy/Weather/static/js/2.4c851501.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aab07b2a.js",
+    "static/js/2.4c851501.chunk.js",
+    "static/css/main.b229cbe7.chunk.css",
+    "static/js/main.7ddf4feb.chunk.js"
+  ]
+}
