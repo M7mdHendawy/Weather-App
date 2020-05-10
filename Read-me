@@ -1,0 +1,4 @@
+This application is an application to know the weather condition using React consists of two sections,
+the first section is introduction, and the second section is the form that gives the weather condition when entering the name of the city.
+That is, by giving the weather in Fahrenheit, I transferred it to Celsius,
+and it was accurate enough that he was giving the decimal marks and converting them to integers.
