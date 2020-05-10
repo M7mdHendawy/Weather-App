@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Monda", sans-serif;
+}
+
+section {
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#home {
+  background: #262626;
+}
+
+#home .logo {
+  position: absolute;
+  top: 25px;
+  left: 55px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#home nav,
+#weather nav {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  transform: translateY(-50%) rotate(90deg);
+  z-index: 50000;
+}
+
+#home nav ul,
+#weather nav ul {
+  display: flex;
+}
+
+#home nav ul li,
+#weather nav ul li {
+  list-style: none;
+  margin: -80px 48px 0 0;
+}
+
+#home nav ul li a,
+#weather nav ul li a {
+  color: rgb(212, 207, 207);
+  padding: 50px 0;
+  text-decoration: none;
+}
+
+#home h1 {
+  position: relative;
+  font-size: 100px;
+  margin: 100px 80px;
+  color: white;
+  z-index: 5;
+}
+#home h1::before {
+  content: "DESIGN";
+  position: absolute;
+  font-size: 300px;
+  top: 0;
+  left: 0;
+  color: #312f2f75;
+  z-index: -1;
+}
+
+#weather {
+  background: rgba(0, 2, 19, 0.884);
+  text-align: center;
+}
+
+#weather h2 {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 5px;
+  margin-top: 70px;
+}
+
+#weather h3 {
+  color: rgb(94, 91, 91);
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+#weather input {
+  width: 40% !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#weather button {
+  color: white;
+  background: rgb(38, 111, 207);
+  padding: 10px 100px;
+  border: none;
+}
+
+#weather p {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#weather p:first-child {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+#weather p:first-child::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  top: 83px;
+  left: 49%;
+  background: #e46013a6;
+  transform: translate(-26%, -50%);
+}
+
+#weather p:last-child {
+  font-size: 15px;
+}
+
+/*media query */
+@media screen and (max-width: 1300px) {
+  #home h1::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  #home {
+    height: auto;
+  }
+  #home h1 {
+    font-size: 50px;
+  }
+
+  #home nav ul li,
+  #weather nav ul li {
+    list-style: none;
+    margin: -120px 48px 0 0;
+  }
+
+  #weather h2 {
+    font-size: 15px;
+  }
+  #weather button {
+    padding: 10px 30px;
+  }
+}
